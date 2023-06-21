@@ -27,6 +27,7 @@ from sales.products)
 
 ![image](https://github.com/jucafernando/funcoes-agregacao/assets/21082881/c9de94de-22b1-451e-84eb-600a79441b4b)
 
-### Na query acima, utilizei uma subquery para selecionar todas as colunas do produto mais caro da tabela products. 
-### Sem a subquery, a unica informação possível de ser selecionada, seria uma coluna contendo o preço do produto. 
-
+#### Na query acima, utilizei uma subquery para selecionar todas as colunas do produto mais caro da tabela products. 
+#### Sem a subquery, a unica informação possível de ser selecionada, seria uma coluna contendo o preço do produto, ou seja, 
+#### para verificar outros campos relacionados as colunas dentro de um count(), é necessário realizar uma subquery. 
+ 
